@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mine Minesweeper</title>
+    <link rel="stylesheet" href="./lel.css" />
+  </head>
+  <body>
+    <div class="title">Minesweeper</div>
+    <div class="game-window">
+      <div id="board" class="board"></div>
+      <div class="menu">
+        <div class="menu-item">
+          <div>
+            <div>
+              <input type="radio" value="easy" name="difficulty" checked />easy
+            </div>
+            <div><input type="radio" value="hard" name="difficulty" />hard</div>
+            <div>
+              <input type="radio" value="extreme" name="difficulty" />extreme
+            </div>
+          </div>
+          <div class="idk">
+            <button class="idk2" onclick="generateBoard()">start</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./minesweeeper.js"></script>
+  </body>
+</html>
